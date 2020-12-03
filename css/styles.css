@@ -1,0 +1,788 @@
+.main {
+  text-align: center;
+  background-color: #fceef5;
+}
+h1,h2,h3 {
+  font-family: 'Montserrat',sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+/* section */
+.colored-section {
+  background-color: #00a2d3;
+}
+.right-nav {
+  padding-right: 20px;
+
+}
+.nav-link {
+  color: white !important;
+}
+.user-dropdown {
+  border-left: solid black;
+  border-width: thin;
+}
+/* dropdown */
+.dropbtn {
+  background-color:  #00a2d3;
+  color: white;;
+  border: none;
+  cursor: pointer;
+}
+.dropdwn {
+  position: relative;
+  display:inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index:1;
+  background-color: #00a2d3;
+
+}
+.dropdown-content:hover {
+  background-color: #00a2d3;
+  display: inline;}
+.dropdown-content a {
+  display: block;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  text-decoration: none;
+}
+.dropdwn:hover .dropdown-content {
+  display: block;
+  text-decoration: none;
+}
+/* user picture(mainsection part 1) */
+
+.container {
+  position: relative;
+  top: 60px;
+}
+.picture-user {
+  max-width :35%;
+  position: relative;
+  top:35px;
+  border: 10px solid #fff;
+  border-radius: 100%;
+}
+.upper-rectangle {
+  background-color: #00a2d3;
+}
+.user-pic {
+
+  height:90px;
+
+}
+.start-userprofile {
+  display: inline-block;
+  padding-bottom: 80px;
+  background-color: white;
+  margin-right: 15px;
+
+}
+.user-specs {
+  position:relative;
+  top:70px;
+
+  }
+  .user-fw-status {
+    padding-right: 40px;
+    position: relative;
+    top: 80px;
+  }
+  .view-profile {
+
+    padding-bottom:  40px;
+  }
+.second-profile {
+  position: relative;
+  right: 210px;
+  top:25px;
+  width: 10%;
+}
+.second-column {
+  background-color: white;
+  text-align: center;
+  height: 120px;
+}
+
+.post-jb {
+  position: relative;
+  left: 120px;
+  bottom: 50px;
+
+}
+.post_project {
+  position: relative;
+  bottom: 12px;
+}
+.post-st {
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+}
+.upper-hr {
+
+  border-color: black;
+  border-width: medium;
+  border-style: solid none none none;
+  position: relative;
+  bottom: 17px;
+}
+.post-topbar {
+  position: relative;
+  bottom: 30px;
+
+}
+/* sectino 3(post section) */
+.posts-section {
+  background-color: white;
+  position: relative;
+
+  }
+.post-bar {
+  background-color: white;
+}
+.three-dots {
+  background-color: white;
+  color: black;
+  position: absolute;
+  right:10px;
+  top:10px;
+
+}
+.third-section-profile {
+  position: absolute;
+  max-width:10%;
+  left:10px;
+  top: 10px;
+
+}
+.usy-name {
+  position: absolute;
+  left: 80px;
+  top: 15px;
+
+}
+.third-s-name {
+  font-size: 1.2rem;
+  font-weight:600;
+}
+.job-dt {
+
+}
+.third-s-time {
+  font-size: 15px;
+  bottom: 10px;
+  position: relative;
+  color: #00a2d3;
+  opacity: 1;
+
+}
+.epi-sec {
+  position: absolute;
+  left:20px;
+  top: 80px;
+  color: #00a2d3;
+  opacity: 1;
+
+}
+.descp-status {
+  position: relative;
+  top: 120px;
+  background-color: white;
+
+}
+.descp {
+
+  left:  10px;
+}
+.bk-links {
+  position: absolute;
+  float: center;
+  bottom: 5px;
+  font-size: 25px;
+}
+.fa-envelope {
+
+}
+.fa-bookmark {
+
+}
+.epi-code {
+  padding-right: 15px;
+}
+/* from senior wordpress developer */
+.position-user {
+  position: absolute;
+  left:10px;
+  display: inline-block;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.job-time {
+  position: absolute;
+  left: 15px;
+  top: 35px;
+}
+.salary {
+  position: absolute;
+  top: 38px;
+  left: 120px;
+  font-weight: 500;
+}
+.below-salary {
+  position: relative;
+  top: 100px;
+  background-color: white;
+}
+.para-descp {
+  position: absolute;
+  left: 20px;
+  right: 30px;
+
+}
+
+.below-para-descp {
+  position: relative;
+  top: 100px;
+  background-color: white;
+
+}
+.program {
+  background-color: #fceef5;
+  padding: 6px 15px 6px 15px;
+  border-radius: 25px;
+
+}
+.html {
+  position: absolute;
+  left: 20px;
+}
+.php {
+  position:absolute;
+  left: 110px;
+
+}
+.css {
+  position: absolute;
+  left: 190px;
+}
+.js {
+  position: absolute;
+  left: 270px;
+}
+.wordpress {
+  position: absolute;
+  left: 390px;
+}
+.below-langauges {
+  margin-top: 40px;
+}
+.like-status {
+  float: left;
+}
+.com {
+  float: left;
+  margin-left: 40px;
+}
+.views-status {
+  float: right;
+  margin-right: 40px;;
+}
+.job-status-bar {
+  padding-bottom: 40px;
+}
+.lcv {
+  margin-right: 5px;
+}
+/* track time Workwise */
+.no-pd {
+  background-color: white;
+  position: relative;
+  left:  880px;
+  bottom: 495px;
+  padding-bottom: 20px;
+}
+.apple-logo {
+  font-size: 70px;
+  padding-top: 20px;
+}
+.signup {
+  font-size: 20px;
+}
+.suggestions {
+  position: absolute;
+  top: 550px;
+  width: 100%;
+  padding-top: 30px;
+}
+.under-suggestion {
+  position: relative;
+}
+.full-width {
+  background-color: white;
+}
+.right-suggestion {
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.suggestion-w {
+  font-size: 1.3rem;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.suggestion-profile {
+  width: 20%;
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.sgt-text h4{
+  font-size: 18px;
+}
+.sgt-text span{
+  font-size: 16px;
+  color: #686868;
+}
+.suggestion-usd {
+  padding-bottom: 20px;
+}
+/* positioning the add(follow) icon */
+.add {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 40px;
+  color: #686868;
+  border-width: thin;
+}
+.first {
+  position: absolute;
+  top: 80px;
+}
+.second {
+  position: absolute;
+  top: 150px;
+}
+.third {
+  position: absolute;
+  top: 220px;
+}
+.fourth {
+  position: absolute;
+  top: 290px;
+
+}
+.fifth {
+  position: absolute;
+  top: 360px;
+}
+.sixth {
+  position: absolute;
+  top: 430px;
+}
+.add:hover {
+  background-color: red;
+  color: white;
+}
+.view-more {
+  height: 50px;
+}
+/* tag section */
+.tags-sec {
+  position: absolute;
+  top: 1200px;
+}
+.tag-s {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.tag-content {
+  padding: 7% 7% 0 7%;
+}
+.apple-logo-copyright {
+  font-size: 40px;
+  display: inline;
+  position: absolute;
+  left: 20px;
+}
+.sanij {
+  position: absolute;
+  left: 60px;
+  padding-top: 10px;
+}
+.copyright {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.cp-sec {
+  padding-top: 20px;
+}
+/* top profile section begins here */
+.profile-top {
+  position: relative;
+  top: 100px;
+  height: 400px;
+  border: 1px solid rgba(0,0,0,.1);
+}
+.top-profile {
+  position: relative;
+}
+.profile-pic {
+  width: 35%;
+  padding-top: 20px;
+}
+.name-top {
+  font-size: 20px;
+}
+.t-p {
+  position: absolute;
+  float: left;
+  padding: 15px 15px;
+  top: 5px;
+}
+.below-t-p {
+  position: relative;
+  top: 20px;
+}
+.t-dots {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.t-dots-right {
+  padding-top: 30px;
+  position: absolute;
+  top: 5px;
+}
+.first-p-sec {
+  background-color: white;
+  margin-right: 5px;
+}
+.top-p-row {
+  background-color:#fceef5;
+  padding: 20px 30px 20px 22px;
+  height: 300px;
+}
+.second-p-sec {
+  background-color: white;
+}
+.third-p-sec {
+  background-color: white;
+  position: relative;
+  left: 347px;
+  bottom: 259px;
+  margin-left: 7px;
+}
+.follow-hire {
+  padding-top: 10px;
+}
+.v-pro {
+  color: black;
+}
+.view-pro:hover {
+  background-color: #fceef5;
+  padding: 6px 15px 6px 15px;
+  border-radius: 25px;
+}
+.view-pro {
+  margin-bottom:10px;
+}
+/* comment section */
+.post-comment {
+  position: relative;
+  top: 250px;
+  background-color: white;
+  height: 40px;
+
+}
+.comment-pic {
+  width: 6%;
+  position: absolute;
+  left: 30px;
+  top: 5px;
+
+}
+.comment_box {
+
+  position: absolute;
+  right: 10px;
+}
+.comment-input {
+  position: absolute;
+
+  right: 80px;
+  left: auto;
+}
+/* top jobs mainsection */
+.widget-jobs {
+  position: absolute;
+  top: 330px;
+  background-color: white;
+  left:0;
+  right:0;
+}
+.widget-relative {
+  position: relative;
+  display: inline-block;
+}
+.t-j {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+
+}
+.right-t-j {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.below-t-j {
+   margin-top: 60px;
+}
+.job-details {
+  position: relative;
+}
+.job-details p {
+  position: relative;
+  top: 20px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  width: 80%;
+  font-size: 15px;
+}
+
+.job-details h3{
+  font-size: 14px;
+  position: absolute;
+  left:15px;
+  font-weight: bold;
+}
+.hr-rate span {
+  float: right;
+  position: relative;
+  bottom: 70px;
+  right: 10px;
+  font-weight: bold;
+}
+/* most viewed */
+.most-viewed {
+  position: absolute;
+  top: 850px;
+  background-color: white;
+  left:0;
+  right:0;
+}
+.under-viewed {
+  top: 1370px;
+  right: 0px;
+}
+/* responsive wensite starts here */
+@media (max-width:430px) {
+  .fa-search {
+    display: none;
+  }
+  .pd-right-none {
+    left: 0;
+    bottom: 0;
+    top: 2900px;
+  }
+
+  .start-userprofile {
+    display: inline;
+    position: relative;
+    left: 0;
+    right:0;
+    padding: none;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+  .profile-top {
+    height: 450px;
+  }
+  .profile-top .second-p-sec{
+    display: none;
+  }
+  .profile-top .third-p-sec {
+    display: none;
+  }
+  .under-viewed {
+    top: 1380px;
+
+  }
+  .picture-user {
+    width: 25%;
+  }
+  .widget-relative {
+    width : 100%;
+  }
+  .widget-jobs {
+    width: auto;
+  }
+  .for-mobile {
+    margin-top: 30px;
+  }
+  .views-status {
+    margin-right: 0;
+  }
+  .wordpress {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+  }
+  .skill-tags {
+    padding-bottom : 20px;
+  }
+
+  .most-viewed {
+    top: 850px;
+  }
+  .post_project {
+    right: 15px;
+  }
+  .post-jb {
+    lefT: 100px;
+  }
+  .second-column {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    top: 900px;
+  }
+  .bk-links {
+  left: 220px;
+  }
+  .comment-input {
+    position: absolute;
+
+    right: 80px;
+
+    width: 376px !important;
+  }
+  .suggestion-profile {
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  .fa-user {
+    display: none;
+  }
+
+  .form-control {
+    width: 150px !important;
+  }
+  .second-profile {
+    right: 150px;
+  }
+  .post-st {
+    left: 0;
+  }
+
+}
+/* responsive wensite starts here */
+@media (min-width:430px) and (max-width: 900px) {
+  .fa-search {
+    display: none;
+  }
+  .pd-right-none {
+    left: 0;
+    bottom: 0;
+    top: 2900px;
+  }
+
+  .start-userprofile {
+    display: inline;
+    position: relative;
+    left: 0;
+    right:0;
+    padding: none;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+  .profile-top {
+    height: 450px;
+  }
+  .profile-top .second-p-sec{
+    display: none;
+  }
+  .profile-top .third-p-sec {
+    display: none;
+  }
+  .picture-user {
+    width: 25%;
+  }
+  .widget-relative {
+    width : 100%;
+  }
+  .widget-jobs {
+    width : auto;
+  }
+  .wordpress {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+  }
+  .skill-tags {
+    padding-bottom : 20px;
+  }
+
+  .most-viewed {
+    top: 750px;
+  }
+  .second-column {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    top: 900px;
+  }
+  .bk-links {
+  left: 380px;
+  }
+  .comment-input {
+    position: absolute;
+
+    right: 80px;
+
+    width: 376px !important;
+  }
+  .suggestion-profile {
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  .under-viewed {
+    top:1180px;
+  }
+  .form-control {
+    width: 150px !important;
+  }
+
+
+
+}
